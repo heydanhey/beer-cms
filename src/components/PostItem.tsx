@@ -1,6 +1,7 @@
 import { PostContent } from "../lib/posts";
 import Date from "./Date";
 import Link from "next/link";
+import TagEmoji from "./TagEmoji";
 import { parseISO } from "date-fns";
 
 type Props = {
@@ -11,7 +12,10 @@ export default function PostItem({ post }: Props) {
     <Link href={"/posts/" + post.slug}>
       <a>
         <Date date={parseISO(post.date)} />
-        <h2>{post.title}</h2>
+        <h2>
+          {post.title}
+          <TagEmoji tags={post.tags} />
+        </h2>
         <style jsx>
           {`
             a {
