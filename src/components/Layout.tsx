@@ -26,6 +26,9 @@ export default function Layout({ children }: Props) {
             box-sizing: border-box;
             height: 100%;
           }
+          nav {
+            padding-right: 50px;
+          }
           main {
             display: flex;
             min-height: 100%;

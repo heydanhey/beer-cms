@@ -1,6 +1,7 @@
 import React from "react";
 import Twitter from "../assets/twitter-alt.svg";
 import GitHub from "../assets/github-alt.svg";
+import Flickr from "../assets/flickr-alt.svg";
 import config from "../lib/config";
 
 export function SocialList({}) {
@@ -21,6 +22,14 @@ export function SocialList({}) {
         rel="noopener"
       >
         <GitHub width={24} height={24} fill={"#222"} />
+      </a>
+      <a
+        title="Flickr"
+        href={`https://www.flickr.com/photos/${config.flickr_account}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <Flickr width={24} height={24} fill={"#222"} />
       </a>
       <style jsx>{`
         a {

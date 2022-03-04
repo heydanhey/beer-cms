@@ -13,7 +13,7 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Lunr<span className="fancy">.</span>
+            LUnR<span className="fancy">.</span>
           </h1>
           <span className="handle">@heydanhey</span>
           <h2>Laboratory for Unnecessary Research</h2>

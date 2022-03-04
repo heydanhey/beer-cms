@@ -4,16 +4,17 @@
   "site_description": "Laboratory for Unnecessary Research",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Laboratory"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Unnecessary"
     },
     {
-      "keyword": "React"
+      "keyword": "Research"
     }
   ],
   "posts_per_page": 10,
   "twitter_account": "@heydanhey",
-  "github_account": "heydanhey"
+  "github_account": "heydanhey",
+  "flickr_account": "heyelevator"
 }

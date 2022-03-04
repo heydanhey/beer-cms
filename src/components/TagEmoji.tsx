@@ -17,6 +17,10 @@ export default function Tag({ tags }: Props) {
     emojis.push("🌽");
   }
 
+  if (tags.includes("art")) {
+    emojis.push("🎨");
+  }
+
   return (
     <span style={{ fontSize: 16, marginLeft: 6 }}>{emojis.join(" ")}</span>
   );
